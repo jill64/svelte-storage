@@ -1,2 +1,2 @@
-# svelte-storage
-🗃️ Type-Safe Web Storage API Wrapper for Svelte
+<!----- BEGIN GHOST DOCS HEADER ----->
+<!----- END GHOST DOCS HEADER ----->
