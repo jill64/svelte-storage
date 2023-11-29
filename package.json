@@ -1,6 +1,6 @@
 {
   "name": "@jill64/svelte-storage",
-  "description": "",
+  "description": "🗃️ Type-Safe Web Storage API Wrapper for Svelte",
   "version": "0.0.0",
   "main": "dist/index.js",
   "type": "module",
