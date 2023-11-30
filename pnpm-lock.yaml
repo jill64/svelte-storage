@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@jill64/typed-storage':
-    specifier: 2.0.1
-    version: 2.0.1
+    specifier: 2.0.2
+    version: 2.0.2
 
 devDependencies:
   '@playwright/test':
@@ -322,10 +322,10 @@ packages:
     resolution: {integrity: sha512-dvuCeX5fC9dXgJn9t+X5atfmgQAzUOWqS1254Gh0m6i8wKd10ebXkfNKiRK+1GWi/yTvvLDHpoxLr0xxxeslWw==}
     dev: true
 
-  /@jill64/typed-storage@2.0.1:
-    resolution: {integrity: sha512-wJyVVhAi41/GQjt6gAUWn7QzxxlKNyJOMu89zHf6PAgC+Cfi35qnDNrUE9nJVFHhc4oW9MGClF63d932hIvUXQ==}
+  /@jill64/typed-storage@2.0.2:
+    resolution: {integrity: sha512-z+Q/XrPrqF2vZ1QyW+U3B5ZnsxjI6oEgAswWkK+khIQXT7wDyoCzRzpFyuiRQ5hGiGF6y1EtU3sduIayz9DzqQ==}
     dependencies:
-      ts-serde: 0.3.0
+      ts-serde: 0.3.1
     dev: false
 
   /@jridgewell/gen-mapping@0.3.3:
@@ -1790,8 +1790,8 @@ packages:
       typescript: 5.3.2
     dev: true
 
-  /ts-serde@0.3.0:
-    resolution: {integrity: sha512-avgmKCJLf/O2KVAT/g0edDKMb0yngiQpLOzaxexE1A2oM+P+iOP8jeMfguhyizZDCN2v0cAgaPhhVT3ZiIX02A==}
+  /ts-serde@0.3.1:
+    resolution: {integrity: sha512-NSooF4gOGl9z36JL5bZKJfq3V59nULoVj8yw1rcH+3UdXKXqELxmrIxQze6EwULxcqc/Z6VRU+JygLql0nzeMQ==}
     dependencies:
       devalue: 4.3.2
     dev: false
