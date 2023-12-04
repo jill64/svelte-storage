@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@jill64/typed-storage':
-    specifier: 2.0.2
-    version: 2.0.2
+    specifier: 2.0.3
+    version: 2.0.3
 
 devDependencies:
   '@playwright/test':
@@ -322,8 +322,8 @@ packages:
     resolution: {integrity: sha512-dvuCeX5fC9dXgJn9t+X5atfmgQAzUOWqS1254Gh0m6i8wKd10ebXkfNKiRK+1GWi/yTvvLDHpoxLr0xxxeslWw==}
     dev: true
 
-  /@jill64/typed-storage@2.0.2:
-    resolution: {integrity: sha512-z+Q/XrPrqF2vZ1QyW+U3B5ZnsxjI6oEgAswWkK+khIQXT7wDyoCzRzpFyuiRQ5hGiGF6y1EtU3sduIayz9DzqQ==}
+  /@jill64/typed-storage@2.0.3:
+    resolution: {integrity: sha512-5Ecpi/WmfCqJjMGnop71XYr8+bzmGR+i+BC50K03qsaaIOKU51fZWVw5xCZYoeroolT7heXCOTmHWwz3UosG+w==}
     dependencies:
       ts-serde: 0.3.1
     dev: false
