@@ -6,10 +6,4 @@
 
 🗃️ Type-Safe Web Storage API Wrapper for Svelte
 
-## Installation
-
-```sh
-npm i @jill64/svelte-storage
-```
-
 <!----- END GHOST DOCS HEADER ----->
