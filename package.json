@@ -32,7 +32,12 @@
   "publishConfig": {
     "access": "public"
   },
-  "keywords": [],
+  "keywords": [
+    "localstorage",
+    "sessionstorage",
+    "svelte",
+    "type-safe"
+  ],
   "scripts": {
     "dev": "vite dev",
     "build": "vite build && npm run package",
