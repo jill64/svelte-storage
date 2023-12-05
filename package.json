@@ -1,7 +1,7 @@
 {
   "name": "@jill64/svelte-storage",
   "description": "🗃️ Type-Safe Web Storage API Wrapper for Svelte",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "main": "dist/index.js",
   "type": "module",
   "license": "MIT",
@@ -68,6 +68,6 @@
     "vite": "5.0.5"
   },
   "dependencies": {
-    "@jill64/typed-storage": "2.0.4"
+    "@jill64/typed-storage": "2.0.5"
   }
 }
