@@ -68,6 +68,6 @@
     "vite": "5.0.5"
   },
   "dependencies": {
-    "@jill64/typed-storage": "2.0.4"
+    "@jill64/typed-storage": "2.0.5"
   }
 }
