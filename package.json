@@ -5,7 +5,12 @@
   "main": "dist/index.js",
   "type": "module",
   "license": "MIT",
-  "author": "jill64 <intents.turrets0h@icloud.com> (https://github.com/jill64)",
+  "author": {
+    "name": "jill64",
+    "email": "143883742+jill64@users.noreply.github.com",
+    "url": "https://github.com/jill64",
+    "image": "https://avatars.githubusercontent.com/u/143883742?v=4"
+  },
   "bugs": "https://github.com/jill64/svelte-storage/issues",
   "homepage": "https://github.com/jill64/svelte-storage#readme",
   "files": [
@@ -23,7 +28,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jill64/svelte-storage.git"
+    "url": "https://github.com/jill64/svelte-storage.git",
+    "image": "https://opengraph.githubassets.com/6c4f5dd205ebcaa03ff7a719362419abb18172e45e18f1be6337f6f5029d452a/jill64/svelte-storage"
   },
   "publishConfig": {
     "access": "public"
@@ -51,12 +57,14 @@
   },
   "prettier": "@jill64/prettier-config",
   "devDependencies": {
-    "@playwright/test": "1.40.1",
-    "@jill64/sentry-sveltekit-cloudflare": "1.5.0",
-    "@sveltejs/adapter-cloudflare": "2.3.4",
     "@jill64/eslint-config-svelte": "1.0.1",
-    "@jill64/prettier-config": "1.0.0",
+    "@jill64/npm-demo-layout": "^0.1.2",
     "@jill64/playwright-config": "2.2.0",
+    "@jill64/prettier-config": "1.0.0",
+    "@jill64/sentry-sveltekit-cloudflare": "1.5.0",
+    "@jill64/svelte-dark-theme": "^2.2.13",
+    "@playwright/test": "1.40.1",
+    "@sveltejs/adapter-cloudflare": "2.3.4",
     "@sveltejs/kit": "1.27.7",
     "svelte": "4.2.8",
     "typescript": "5.3.3",
