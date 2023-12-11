@@ -2,7 +2,7 @@
 
 # svelte-storage
 
-[![npm-version](https://img.shields.io/npm/v/@jill64/svelte-storage)](https://npmjs.com/package/@jill64/svelte-storage) [![npm-license](https://img.shields.io/npm/l/@jill64/svelte-storage)](https://npmjs.com/package/@jill64/svelte-storage) [![npm-download-month](https://img.shields.io/npm/dm/@jill64/svelte-storage)](https://npmjs.com/package/@jill64/svelte-storage) [![npm-min-size](https://img.shields.io/bundlephobia/min/@jill64/svelte-storage)](https://npmjs.com/package/@jill64/svelte-storage) [![ci.yml](https://github.com/jill64/svelte-storage/actions/workflows/ci.yml/badge.svg)](https://github.com/jill64/svelte-storage/actions/workflows/ci.yml)
+<!----- BEGIN GHOST DOCS BADGES -----><a href="https://npmjs.com/package/@jill64/svelte-storage"><img src="https://img.shields.io/npm/v/@jill64/svelte-storage" alt="npm-version" /></a> <a href="https://npmjs.com/package/@jill64/svelte-storage"><img src="https://img.shields.io/npm/l/@jill64/svelte-storage" alt="npm-license" /></a> <a href="https://npmjs.com/package/@jill64/svelte-storage"><img src="https://img.shields.io/npm/dm/@jill64/svelte-storage" alt="npm-download-month" /></a> <a href="https://npmjs.com/package/@jill64/svelte-storage"><img src="https://img.shields.io/bundlephobia/min/@jill64/svelte-storage" alt="npm-min-size" /></a> <a href="https://github.com/jill64/svelte-storage/actions/workflows/ci.yml"><img src="https://github.com/jill64/svelte-storage/actions/workflows/ci.yml/badge.svg" alt="ci.yml" /></a><!----- END GHOST DOCS BADGES ----->
 
 🗃️ Type-Safe Web Storage API Wrapper for Svelte
 
