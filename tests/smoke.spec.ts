@@ -29,7 +29,7 @@ test('smoke', async ({ page, context }) => {
   await expect(newPage.getByPlaceholder('LocalStorage')).toHaveValue(
     'Hello Local'
   )
-  
+
   await expect(newPage.getByPlaceholder('SessionStorage')).not.toHaveValue(
     'Hello Session'
   )
