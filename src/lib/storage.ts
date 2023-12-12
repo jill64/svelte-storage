@@ -12,7 +12,7 @@ export const storage: {
   const { get, set, subscribe } = typedStorage(
     key,
     (isSerdeArg ? arg : string) as Serde<T>,
-    opts
+    opts ?? (isSerdeArg ? undefined : arg)
   )
 
   const store = readable(get(), subscribe)
