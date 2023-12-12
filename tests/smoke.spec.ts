@@ -4,12 +4,21 @@ test('smoke', async ({ page, context }) => {
   await page.goto('/')
 
   await expect(page.getByTestId('hydrated')).toBeAttached()
-  await page.getByRole('textbox').fill('Hello World')
-  await expect(page.getByRole('textbox')).toHaveValue('Hello World')
+
+  await page.getByPlaceholder('LocalStorage').fill('Hello Local')
+  await expect(page.getByPlaceholder('LocalStorage')).toHaveValue('Hello Local')
+
+  await page.getByPlaceholder('SessionStorage').fill('Hello Session')
+  await expect(page.getByPlaceholder('SessionStorage')).toHaveValue(
+    'Hello Session'
+  )
 
   await page.reload()
 
-  await page.getByRole('textbox').fill('Hello World')
+  await expect(page.getByPlaceholder('LocalStorage')).toHaveValue('Hello Local')
+  await expect(page.getByPlaceholder('SessionStorage')).toHaveValue(
+    'Hello Session'
+  )
 
   await page.close()
 
@@ -17,5 +26,11 @@ test('smoke', async ({ page, context }) => {
 
   await newPage.goto('/')
 
-  await expect(newPage.getByRole('textbox')).toHaveValue('Hello World')
+  await expect(newPage.getByPlaceholder('LocalStorage')).toHaveValue(
+    'Hello Local'
+  )
+
+  await expect(newPage.getByPlaceholder('SessionStorage')).not.toHaveValue(
+    'Hello Session'
+  )
 })
