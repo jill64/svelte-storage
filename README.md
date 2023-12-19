@@ -80,3 +80,11 @@ You can also use the prepared converters in `@jill64/svelte-storage/serde`.
   )
 </script>
 ```
+
+<!----- BEGIN GHOST DOCS FOOTER ----->
+
+## License
+
+MIT
+
+<!----- END GHOST DOCS FOOTER ----->
