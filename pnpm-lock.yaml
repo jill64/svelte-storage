@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@jill64/typed-storage':
-    specifier: 2.1.0
-    version: 2.1.0
+    specifier: 2.2.0
+    version: 2.2.0
 
 devDependencies:
   '@jill64/eslint-config-svelte':
@@ -984,6 +984,13 @@ packages:
     dependencies:
       nanoid: 5.0.6
       ts-serde: 1.0.3
+    dev: true
+
+  /@jill64/typed-storage@2.2.0:
+    resolution: {integrity: sha512-1RLJ1H4Cn2Acjum8Fc0a9qgJhMqGtakpYYShWEF3LdUEo2dxgtoFEF6Tbwm4aRGASuV6KUMZlSdUZg3WEQ900Q==}
+    dependencies:
+      ts-serde: 1.0.3
+    dev: false
 
   /@jill64/universal-sanitizer@1.2.7:
     resolution: {integrity: sha512-eoNSVaZHIPDYVxsP96+EW/nB/Ekhn6rn9iuV2tm2lyXFbP0TGzB1Zr547LlCcWQ0mGisjwSg0PHdyrG+ptKq3Q==}
@@ -2615,6 +2622,7 @@ packages:
     resolution: {integrity: sha512-rRq0eMHoGZxlvaFOUdK1Ev83Bd1IgzzR+WJ3IbDJ7QOSdAxYjlurSPqFs9s4lJg29RT6nPwizFtJhQS6V5xgiA==}
     engines: {node: ^18 || >=20}
     hasBin: true
+    dev: true
 
   /natural-compare@1.4.0:
     resolution: {integrity: sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==}
