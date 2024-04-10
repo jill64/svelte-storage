@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@jill64/typed-storage':
-    specifier: 2.2.0
-    version: 2.2.0
+    specifier: 2.2.1
+    version: 2.2.1
 
 devDependencies:
   '@jill64/eslint-config-svelte':
@@ -983,6 +983,13 @@ packages:
     resolution: {integrity: sha512-1RLJ1H4Cn2Acjum8Fc0a9qgJhMqGtakpYYShWEF3LdUEo2dxgtoFEF6Tbwm4aRGASuV6KUMZlSdUZg3WEQ900Q==}
     dependencies:
       ts-serde: 1.0.3
+    dev: true
+
+  /@jill64/typed-storage@2.2.1:
+    resolution: {integrity: sha512-DbNZ909+A2horC1OXF+d+H7YXUQxASPRKgxsKOCghiScAPd+o72JZSRy52qT5hr4ZpruxKYMJNOsBs4qroJM5A==}
+    dependencies:
+      ts-serde: 1.0.4
+    dev: false
 
   /@jill64/universal-sanitizer@1.2.8:
     resolution: {integrity: sha512-qqmGtUHPeg0ehWZ27dkgUBlAiNI80MAo4YWU9/y2nhxSuuJq+nVYZBxlKCcVsRWWdPoAuErSdKnW2r/3cYs5gA==}
@@ -3196,6 +3203,13 @@ packages:
     resolution: {integrity: sha512-/p/FHsZMnwdEzxPwyEnypmgML6ZZZ41fVxwxTehNOXb64c1YKDqn/vkOMnQTuV9wOWcSOI77qsl9Ua8Z9PNhpg==}
     dependencies:
       devalue: 4.3.2
+    dev: true
+
+  /ts-serde@1.0.4:
+    resolution: {integrity: sha512-dKDQS7gNile4Py/Us8CROs5bs5/oM0KCocma1vAETIsz+Xs/LHRobpbeyWZyNM/mfX3JyQqSfif/8yIfVfmNCQ==}
+    dependencies:
+      devalue: 4.3.2
+    dev: false
 
   /tslib@1.14.1:
     resolution: {integrity: sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==}
