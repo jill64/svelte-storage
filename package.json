@@ -29,7 +29,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/jill64/svelte-storage.git",
-    "image": "https://opengraph.githubassets.com/a68b82410db7c4e6f143c39c97a3ed744444db1e6b383b29a21717f15a5e73b5/jill64/svelte-storage"
+    "image": "https://opengraph.githubassets.com/b35644e97faba3c433c77092ca2eec2aa287f3df5ecaadc9666f158f414c329a/jill64/svelte-storage"
   },
   "publishConfig": {
     "access": "public"
@@ -66,7 +66,7 @@
     "@playwright/test": "1.44.1",
     "@sveltejs/adapter-cloudflare": "4.4.0",
     "@sveltejs/kit": "2.5.10",
-    "svelte": "4.2.17",
+    "svelte": "4.2.18",
     "typescript": "5.4.5",
     "vite": "5.2.12",
     "@sveltejs/vite-plugin-svelte": "3.1.1"
