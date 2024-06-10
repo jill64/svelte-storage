@@ -29,7 +29,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/jill64/svelte-storage.git",
-    "image": "https://opengraph.githubassets.com/dbe3c5b320799a5fa490cf293392c87593991c28b7dce5b86224d55e8bba4556/jill64/svelte-storage"
+    "image": "https://opengraph.githubassets.com/05ece54a4c1f3507ebbcf359bfbe2ab16ce46a8c0821cb44b400802e28013d54/jill64/svelte-storage"
   },
   "publishConfig": {
     "access": "public"
