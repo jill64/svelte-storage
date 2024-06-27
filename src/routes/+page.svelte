@@ -5,7 +5,7 @@
   import { code } from './code'
 
   const local = storage('svelte-storage')
-  const session = storage('svelte-storage', {
+  const session = storage('svelte-storage-session', {
     sessionStorage: true
   })
 </script>
