@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@jill64/typed-storage':
-        specifier: 2.2.4
-        version: 2.2.4
+        specifier: 2.3.1
+        version: 2.3.1
     devDependencies:
       '@jill64/eslint-config-svelte':
         specifier: 1.2.39
@@ -631,6 +631,9 @@ packages:
 
   '@jill64/typed-storage@2.2.4':
     resolution: {integrity: sha512-7MEyAvqOf1bY0CWDH0WxkBUS4BguvCguCjd8cUW7hs7IadKLnS/N1idPj105HQlnZYhFZyBegIYQ01sz+D3klA==}
+
+  '@jill64/typed-storage@2.3.1':
+    resolution: {integrity: sha512-BSncK/uZ4wrjqz17MrtOh+CdniDG1VV80pQrZ0O/h0Yv03KmI33dgbrrswufceKCv/ZQGJ8XtYRuCFQuY7spgw==}
 
   '@jill64/universal-sanitizer@1.2.13':
     resolution: {integrity: sha512-RdyrBqxwAXnM2sXt4WXHjd11U549c8h7j4Bet2MVYe2QbwoqjA85jtk6faMr6AKOKLSgCmgRQUK8eu33eDxrlA==}
@@ -2309,6 +2312,10 @@ snapshots:
   '@jill64/transform@1.0.3': {}
 
   '@jill64/typed-storage@2.2.4':
+    dependencies:
+      ts-serde: 1.0.6
+
+  '@jill64/typed-storage@2.3.1':
     dependencies:
       ts-serde: 1.0.6
 
