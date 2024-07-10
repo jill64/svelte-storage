@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@jill64/typed-storage':
-        specifier: 3.1.1
-        version: 3.1.1
+        specifier: 3.1.2
+        version: 3.1.2
     devDependencies:
       '@jill64/eslint-config-svelte':
         specifier: 1.2.40
@@ -490,6 +490,9 @@ packages:
 
   '@jill64/typed-storage@3.1.1':
     resolution: {integrity: sha512-kDzwfx1mP69OhTkPUvp9PgW4oFVRH255h5nAjdwHWtPrXjKCejX6pax73tYb2RgDAwDIJDkYAtoh6knCJbJsxA==}
+
+  '@jill64/typed-storage@3.1.2':
+    resolution: {integrity: sha512-Kk5Ap1SjLp2NktUemghZ6orHv/oar73SLbShyqqa2JHJ9NVuCmBk6ihDZePtm5CLv7gH6DZR8LX/tr04wh+sEg==}
 
   '@jill64/universal-sanitizer@1.2.14':
     resolution: {integrity: sha512-iLVQEHE5znXbH9UNYau4+HDZpswlZskpVGQqqsY2BRcwe/qagqKTQ3DatmZZHPq2FCJqPlmth+5XyrMKwHU21w==}
@@ -1686,6 +1689,9 @@ packages:
   ts-serde@1.0.6:
     resolution: {integrity: sha512-nHuo7jHWP6kMdB2AuVKKZMKA1qkypL097QJq8y30EvATmphPmOcI5IBvVD/11VnsQKp+lrSkUuZaRDSaVSmPTA==}
 
+  ts-serde@1.0.7:
+    resolution: {integrity: sha512-uKLELc4t1+3eufCypJFFIPHfjtEvTzeWKcTSMbXvwrAqupf0VLh80L7iZxCn7zHbA77BhX3Z8if52hP65ruebw==}
+
   tslib@2.6.3:
     resolution: {integrity: sha512-xNvxJEOUiWPGhUuUdQgAJPKOOJfGnIyKySOc09XkKsgdUV/3E2zvwZYdejjmRgPCgcym1juLH3226yA7sEFJKQ==}
 
@@ -2139,6 +2145,10 @@ snapshots:
   '@jill64/typed-storage@3.1.1':
     dependencies:
       ts-serde: 1.0.6
+
+  '@jill64/typed-storage@3.1.2':
+    dependencies:
+      ts-serde: 1.0.7
 
   '@jill64/universal-sanitizer@1.2.14':
     dependencies:
@@ -3446,6 +3456,10 @@ snapshots:
       typescript: 5.5.3
 
   ts-serde@1.0.6:
+    dependencies:
+      devalue: 5.0.0
+
+  ts-serde@1.0.7:
     dependencies:
       devalue: 5.0.0
 
