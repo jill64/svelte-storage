@@ -14,12 +14,12 @@
   <fieldset>
     Persisted in LocalStorage
     <input
-      bind:value={$local}
+      bind:value={local.value}
       placeholder={browser ? 'LocalStorage' : 'Loading...'}
     />
     Persisted in SessionStorage
     <input
-      bind:value={$session}
+      bind:value={session.value}
       placeholder={browser ? 'SessionStorage' : 'Loading...'}
     />
   </fieldset>
