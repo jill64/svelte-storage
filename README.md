@@ -33,12 +33,10 @@ Passing the `localStorage` key to the `storage` function will retrieve the svelt
   })
 
   // Get value
-  $: consol.log($str)
+  consol.log(str.value)
 
   // Set value
-  $str = 'value'
-  // or
-  str.set('value')
+  str.value = 'value'
 </script>
 ```
 
