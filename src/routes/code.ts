@@ -8,6 +8,6 @@ export const code = /* html */ `
   })
 </script>
 
-Persisted in LocalStorage   <input bind:value={$local} />
-Persisted in SessionStorage <input bind:value={$session} />
+Persisted in LocalStorage   <input bind:value={local.value} />
+Persisted in SessionStorage <input bind:value={session.value} />
 `.trim()
