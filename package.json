@@ -1,7 +1,7 @@
 {
   "name": "@jill64/svelte-storage",
   "description": "🗃️ Type-Safe Web Storage API Wrapper for Svelte",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "main": "dist/index.js",
   "type": "module",
   "license": "MIT",
@@ -29,7 +29,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/jill64/svelte-storage.git",
-    "image": "https://opengraph.githubassets.com/8ab2b12437aa5423be5aba41b1175e267851621faa0b71d84596e39466c17dce/jill64/svelte-storage"
+    "image": "https://opengraph.githubassets.com/9cac2f64fd3a0096a926244cd545642510d0d56812db604f1b8e51f6eb87faf7/jill64/svelte-storage"
   },
   "publishConfig": {
     "access": "public"
@@ -58,7 +58,7 @@
   "prettier": "@jill64/prettier-config",
   "devDependencies": {
     "@jill64/eslint-config-svelte": "1.3.4",
-    "@jill64/npm-demo-layout": "1.0.242",
+    "@jill64/npm-demo-layout": "1.0.243",
     "@jill64/playwright-config": "2.4.0",
     "@jill64/prettier-config": "1.0.0",
     "@jill64/sentry-sveltekit-cloudflare": "1.7.16",
