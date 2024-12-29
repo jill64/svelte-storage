@@ -1,25 +1,29 @@
 <script lang="ts">
   import { browser } from '$app/environment'
   import { storage } from '$lib'
+  import { string } from '$lib/serde'
   import { HighlightSvelte } from '@jill64/npm-demo-layout/highlight'
   import { code } from './code'
 
-  const local = storage('svelte-storage')
-  const session = storage('svelte-storage-session', {
-    sessionStorage: true
-  })
+  const local = storage({ ['svelte-storage']: string })
+  const session = storage(
+    { ['svelte-storage-session']: string },
+    {
+      sessionStorage: true
+    }
+  )
 </script>
 
 <main>
   <fieldset>
     Persisted in LocalStorage
     <input
-      bind:value={$local}
+      bind:value={local['svelte-storage']}
       placeholder={browser ? 'LocalStorage' : 'Loading...'}
     />
     Persisted in SessionStorage
     <input
-      bind:value={$session}
+      bind:value={session['svelte-storage-session']}
       placeholder={browser ? 'SessionStorage' : 'Loading...'}
     />
   </fieldset>
