@@ -29,7 +29,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jill64/svelte-storage.git",
-    "image": "https://opengraph.githubassets.com/61fcb30a9b6326ebd9ba1ab5754c2bf803a82df1cb7bc137936d38477979bd6b/jill64/svelte-storage"
+    "image": "https://opengraph.githubassets.com/c7812302ef3ccee6aba95b9573ee510c52b04393fb40d5d34e7d949831ee1fbb/jill64/svelte-storage"
   },
   "publishConfig": {
     "access": "public"
@@ -58,7 +58,7 @@
   "prettier": "@jill64/prettier-config",
   "devDependencies": {
     "@jill64/eslint-config-svelte": "2.0.4",
-    "@jill64/npm-demo-layout": "2.0.11",
+    "@jill64/npm-demo-layout": "2.0.12",
     "@jill64/playwright-config": "2.4.2",
     "@jill64/prettier-config": "1.0.0",
     "@jill64/sentry-sveltekit-cloudflare": "2.0.5",
