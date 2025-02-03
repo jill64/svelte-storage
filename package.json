@@ -29,7 +29,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jill64/svelte-storage.git",
-    "image": "https://opengraph.githubassets.com/b7b6c773cb92adc69962b641f3d1295848a3d12b6620e8f8f90a68bfbf16c114/jill64/svelte-storage"
+    "image": "https://opengraph.githubassets.com/a1de35dbe10036c4776f9b9edc754c1ce249bbe3d0ef4d0e7761a4bf4e247991/jill64/svelte-storage"
   },
   "publishConfig": {
     "access": "public"
@@ -65,7 +65,7 @@
     "@jill64/universal-sanitizer": "1.4.1",
     "@playwright/test": "1.50.1",
     "@sveltejs/adapter-cloudflare": "5.0.1",
-    "@sveltejs/kit": "2.15.1",
+    "@sveltejs/kit": "2.16.1",
     "svelte": "5.19.6",
     "typescript": "5.7.3",
     "vite": "6.0.11",
