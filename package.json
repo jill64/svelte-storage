@@ -72,6 +72,6 @@
     "@sveltejs/vite-plugin-svelte": "5.0.3"
   },
   "dependencies": {
-    "@jill64/typed-storage": "3.1.5"
+    "@jill64/typed-storage": "3.1.6"
   }
 }
